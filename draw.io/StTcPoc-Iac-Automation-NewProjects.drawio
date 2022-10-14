@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T04:49:26.274Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="OZ88_chcyd5Rj591uWks" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-14T04:51:27.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="3ZnoULgY39BoG90tR30v" version="20.4.0" type="github">
   <diagram id="_ftMM0IxXb8-_FhVnSZ3" name="Page-1">
     <mxGraphModel dx="1295" dy="2068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -34,8 +34,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Q-PazUcE7m0afQqHqgkP-4" value="Push Genarete&lt;br&gt;Project" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rfStH9Z-_zdo-5SsNmMn-8">
+          <mxGeometry x="-0.0082" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="rfStH9Z-_zdo-5SsNmMn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T8KJwZ6w7AE4oxkdTUSo-2" target="rfStH9Z-_zdo-5SsNmMn-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-PazUcE7m0afQqHqgkP-5" value="Open Card&lt;br&gt;to&lt;br&gt;Wath task" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rfStH9Z-_zdo-5SsNmMn-3">
+          <mxGeometry x="0.0813" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="T8KJwZ6w7AE4oxkdTUSo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T8KJwZ6w7AE4oxkdTUSo-4" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -47,6 +57,11 @@
             <Array as="points">
               <mxPoint x="180" y="854" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-PazUcE7m0afQqHqgkP-3" value="Get SREOps&lt;br&gt;Yamls" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q-PazUcE7m0afQqHqgkP-1">
+          <mxGeometry x="0.072" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="T8KJwZ6w7AE4oxkdTUSo-4" value="ECS&lt;br&gt;SRE Automation&lt;br&gt;Bff + Front" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ecs;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
@@ -161,7 +176,7 @@
         <mxCell id="rfStH9Z-_zdo-5SsNmMn-33" value="Security group&#xa;ALB/ELB" style="fillColor=none;strokeColor=#DD3522;verticalAlign=top;fontStyle=0;fontColor=#DD3522;" parent="1" vertex="1">
           <mxGeometry x="909" y="-320" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Q-PazUcE7m0afQqHqgkP-2" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="Q-PazUcE7m0afQqHqgkP-2" value="SQS" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="340" y="510.25" width="76.5" height="93" as="geometry" />
         </mxCell>
       </root>
